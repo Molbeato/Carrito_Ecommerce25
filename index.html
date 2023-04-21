@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+  </head>
+  <body>
+    <nav>
+      <img src="images/img/logo_nombre.png" alt="logo">
+      <button class="cart_toggle">
+        <img src="images/img/cart.png" alt="cart">
+      </button>
+      <div class="cart_block" id="cart">
+        <div id="cart_list">
+
+        </div>
+        <button class="empty_cart" id="empty_cart">Empty Cart</button>
+      </div>
+    </nav>
+  <header>
+      <img src="images/img/logo blanco.png" alt="background_logo">
+  </header>
+  <main>
+    <h3>Todos Nuestros Productos</h3>
+    <div class="principal_container" id="products_container">
+    </div>
+    <div class="modal_container_element" id="modal_container">
+      <i class="close_modal">X</i>
+      <div class="modal_element" id="modal">
+      </div>
+    </div>
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+   
+  </body>
+</html>
